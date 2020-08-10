@@ -1,0 +1,12 @@
+<launch>
+
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+
+	<!-- Controller -->
+	<node pkg="simstage_group3" type="simstage.py" name="turtle1" output="screen">
+	</node>
+		
+	<!-- <param name="robot_id" value="turtle2"/> -->
+	
+
+</launch>
