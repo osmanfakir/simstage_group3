@@ -12,3 +12,21 @@ def callback(msg):
 	print(msg.ranges[120])
 	print ("value at 180 degree")
 	print(msg.ranges[239])
+
+
+
+rospy.init_node('scan_')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
